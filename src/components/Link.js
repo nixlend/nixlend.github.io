@@ -11,7 +11,7 @@ class Link extends Component {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className={"mx-2 " + fontawesome} />
+        <i className={"mx-2 rotate " + fontawesome} />
       </a>
     );
   }

@@ -1,0 +1,11 @@
+.fab {
+  transition: all 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.fab:hover {
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+}
